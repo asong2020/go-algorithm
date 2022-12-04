@@ -1,0 +1,11 @@
+system:
+  port: 8888
+
+mysql:
+  host: 127.0.0.1:3306
+  username: root
+  password: root1997
+  db: leaf
+  conn:
+    maxidle: 50
+    maxopen: 50
